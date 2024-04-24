@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro&display=swap');
+
+* {
+      font-family: 'Kantumruy Pro', sans-serif;
+      transition: all .3s ease-in-out;
+}
+
+
+/* header style  */
+
+
+header .row .header {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+}
+
+nav,
+.navbar {
+      display: flex;
+}
+
+.navbar-brand {
+      font-size: 17px;
+      margin: 0;
+      padding: 7px 15px;
+      color: gray;
+      position: relative;
+}
+
+.active {
+      background-color: gray;
+      border-radius: 5px;
+      color: aliceblue;
+}
+
+nav a {
+      position: relative;
+}
+
+.card-overlay {
+      position: absolute;
+      bottom: 0;
+      padding: 20px;
+}
+
+.features .left-features {
+      box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+      padding: 10px 10px;
+}
+
+.biggest-features-news {
+      overflow: hidden;
+      cursor: pointer;
+}
+
+.biggest-features-news .card-title {
+      font-size: 25px;
+}
+
+.biggest-features-news:hover img {
+      transform: scale(111%, 111%);
+      opacity: .5;
+}
+
+.biggest-features-news:hover .card-title {
+      color: red;
+}
+
+.sub-features-news .col,
+.news-popular .card,
+.new-feed .col,
+.popular-contain .col,
+.news-popular .col {
+      text-decoration: none;
+      color: black;
+      overflow: hidden;
+}
+
+.sub-features-news .col:hover {
+      transform: scale(96%, 95%);
+}
+
+.sub-features-news .col:hover img {
+      opacity: .8;
+}
+
+.news-ads {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+}
+
+.news-ads img {
+      margin-bottom: 10px;
+      width: 100%;
+      object-fit: cover;
+}
+
+.news-popular .card {
+      overflow: hidden;
+      cursor: pointer;
+}
+
+.news-popular .card:hover {
+      overflow: hidden;
+      transform: scale(98%, 98%);
+}
+
+.news-popular .card:hover img {
+      opacity: .8;
+}
+
+
+.header-options a {
+      color: black;
+      text-decoration: none;
+      align-items: center;
+      font-size: 23px;
+      word-spacing: 2px;
+}
+
+
+.ads-left img {
+      width: 100%;
+      height: 100px;
+      margin-bottom: 10px;
+      object-fit: cover;
+}
+
+.category {
+      padding: 30px;
+}
+
+.blog-deatail {
+      box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+      padding: 15px 40px;
+}
+
+.more-options {
+      justify-content: space-between;
+      display: flex;
+}
+
+.blog-deatail .contain-relation img {
+      height: 110px;
+}
+
+.blog-right-side .row {
+      width: 100%;
+}
+
+.blog-right-side img {
+      width: 100%;
+}
+
+
+
+.test {
+      height: 100000px;
+}
